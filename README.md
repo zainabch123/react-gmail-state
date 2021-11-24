@@ -1,8 +1,8 @@
 # React State
 
-In this exercise, we are going to to work with the layout of [gmail](./images/images/gmail-email-list-state-complete.png) again, this time to practice using state.
+In this exercise, we are going to practice using state.
 
-We'll use state to render a list of emails like in Gmail. Rendering lists is a very common pattern in React.
+We'll use state to render a list of emails like in [Gmail](./images/images/gmail-email-list-state-complete.png). Rendering lists is a very common pattern in React.
 
 We'll use state's `set` function to modify data and render the new changes.
 
