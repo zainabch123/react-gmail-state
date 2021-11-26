@@ -8,9 +8,10 @@ You'll use state's `set` function to modify data and render the new changes.
 
 ## Prerequisites
 
-1. Clone this repository onto your local machines
-2. In the root directory, type `npm install`
-3. Finally, type `npm run start`
+1. Fork this repository
+2. Clone the forked repository onto your local machines
+3. In the root directory, type `npm install`, which installs dependencies for the project
+4. Finally, type `npm run start`, which starts a development server that runs your website in the browser. That server will reload your website whenever you make any changes to source files
 
 ## Instructions
 
