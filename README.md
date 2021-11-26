@@ -6,7 +6,7 @@ You'll use state to render a list of emails like in Gmail. Rendering lists is a 
 
 You'll use state's `set` function to modify data and render the new changes.
 
-## Prerequisites
+## Setup
 
 1. Fork this repository
 2. Clone the forked repository onto your local machines
