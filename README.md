@@ -30,11 +30,11 @@ You'll use state's `set` function to modify data and render the new changes.
 - `Array.map` is a useful method for rendering lists and modifying state
 - Remember to use the `key` attribute when rendering lists in react
 
-## Extra Challenge 1
+## Extension 1
 
 - Get the **Hide Read** checkbox to work in the `left-menu` section. You'll need to use state to keep track of the changes and you'll need a function to filter the emails before they are rendered ie. `getReadEmails(emails)`
 
-## Extra Challenge 2
+## Extension 2
 
 - Get the `left-menu` **inbox** and **starred** menu items to work when clicked. You'll need to use state to keep track of the changes ie. `currentTab` and you'll need a function to filter the emails before they are rendered ie. `getStarredEmails(emails)`
 - Replace the hard-coded question marks in the `left-menu`
