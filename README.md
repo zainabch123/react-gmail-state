@@ -6,6 +6,7 @@ You'll use state to render a list of emails like in Gmail. Rendering lists is a 
 
 You'll use state's `set` function to modify data and render the new changes.
 
+![Image](image.png)
 ## Setup
 
 1. Fork this repository
@@ -18,7 +19,8 @@ You'll use state's `set` function to modify data and render the new changes.
 **DO NOT** break the code down into components; work in `app.js` only.
 
 - Set state using `useState` and `intialEmails`
-- Render a list of emails from state so it looks similar to the screenshot that comes with this message
+- Render a list of emails from state so it looks similar to the screenshot above.
+  - You can find an HTML template for each email in the templates folder
 - Create a `toggleRead` function that updates the target email's **read** property in state, when a user clicks on the checkbox
 - Create a `toggleStar` function that updates the target email's **starred** property in state, when a user clicks on the star
 - Make sure these changes take effect in the UI
