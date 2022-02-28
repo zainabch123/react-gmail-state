@@ -33,7 +33,7 @@ You'll use state's `set` function to modify data and render the new changes.
 - Create a `toggleRead` function that updates the target email's **read** property in state, when a user clicks on the checkbox
 - Create a `toggleStar` function that updates the target email's **starred** property in state, when a user clicks on the star
 - Make sure these changes take effect in the UI
-- 
+
 ## Extension 2
 
 - Get the **Hide Read** checkbox to work in the `left-menu` section. You'll need to use state to keep track of the changes and you'll need a function to filter the emails before they are rendered ie. `getReadEmails(emails)`
