@@ -21,9 +21,6 @@ You'll use state's `set` function to modify data and render the new changes.
 - Set state using `useState` and `intialEmails`
 - Render a list of emails from state so it looks similar to the screenshot above.
   - You can find an HTML template for each email in the templates folder
-- Create a `toggleRead` function that updates the target email's **read** property in state, when a user clicks on the checkbox
-- Create a `toggleStar` function that updates the target email's **starred** property in state, when a user clicks on the star
-- Make sure these changes take effect in the UI
 
 ## Tips
 
@@ -33,10 +30,15 @@ You'll use state's `set` function to modify data and render the new changes.
 - Remember to use the `key` attribute when rendering lists in react
 
 ## Extension 1
+- Create a `toggleRead` function that updates the target email's **read** property in state, when a user clicks on the checkbox
+- Create a `toggleStar` function that updates the target email's **starred** property in state, when a user clicks on the star
+- Make sure these changes take effect in the UI
+- 
+## Extension 2
 
 - Get the **Hide Read** checkbox to work in the `left-menu` section. You'll need to use state to keep track of the changes and you'll need a function to filter the emails before they are rendered ie. `getReadEmails(emails)`
 
-## Extension 2
+## Extension 3
 
 - Get the `left-menu` **inbox** and **starred** menu items to work when clicked. You'll need to use state to keep track of the changes ie. `currentTab` and you'll need a function to filter the emails before they are rendered ie. `getStarredEmails(emails)`
 - Replace the hard-coded question marks in the `left-menu`
