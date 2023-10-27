@@ -1,34 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Header from './components/header'
+import initialEmails from './data/emails'
+
 import './styles/App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // Use initialEmails for state
+  console.log(initialEmails)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="app">
+      <Header />
+      <nav className="left-menu">
+        <ul className="inbox-list">
+          <li
+            className="item active"
+            // onClick={() => {}}
+          >
+            <span className="label">Inbox</span>
+            <span className="count">?</span>
+          </li>
+          <li
+            className="item"
+            // onClick={() => {}}
+          >
+            <span className="label">Starred</span>
+            <span className="count">?</span>
+          </li>
+
+          <li className="item toggle">
+            <label for="hide-read">Hide read</label>
+            <input
+              id="hide-read"
+              type="checkbox"
+              checked={false}
+              // onChange={() => {}}
+            />
+          </li>
+        </ul>
+      </nav>
+      <main className="emails">{/* Render a list of emails here */}</main>
+    </div>
   )
 }
 
