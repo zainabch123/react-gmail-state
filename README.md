@@ -17,11 +17,11 @@ You'll use state's `set` function to modify data and render the new changes.
 
 ## Instructions
 
-**DO NOT** break the code down into components; work in `App.jsx` only.
-
-- Set state using `useState` and `intialEmails`
-- Render a list of emails from state so it looks similar to the screenshot above.
-  - You can find an HTML template for each email in the templates folder
+- **DO NOT** break the code down into components; work in `App.jsx` only.
+- When you first run the app, there will be no emails displayed. Your task will be to add them in.
+- You need to render a list of emails from state so it looks similar to the screenshot above.
+  - Set state using the `useState` hook and the `intialEmails` variable provided for you.
+  - You can find an HTML template for each email in the `src/templates` folder.
 
 ## Tips
 
