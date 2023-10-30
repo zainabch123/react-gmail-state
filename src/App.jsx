@@ -1,8 +1,7 @@
 import Header from './components/header'
-
 import initialEmails from './data/emails'
 
-import './styles/app.css'
+import './styles/App.css'
 
 function App() {
   // Use initialEmails for state
